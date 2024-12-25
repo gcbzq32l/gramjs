@@ -29,6 +29,11 @@
     "bufferutil": "^4.0.3",
     "utf-8-validate": "^5.0.5"
   },
+  "exports": {
+    ".": "./index.js",
+    "./session": "./session/index.js",
+    "./events": "./events/index.js"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.13",
     "@babel/plugin-proposal-class-properties": "^7.12.13",
@@ -71,3 +76,4 @@
     "socks": "^2.6.2"
   }
 }
+
